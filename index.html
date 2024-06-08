@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Adedolapo Adeboye</title>
+  <!-- Materialize CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- jQuery (needed for Materialize) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar-fixed">
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo">HybridWealth</a>
+      <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons fas fa-bars"></i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <ul class="sidenav" id="mobile-nav">
+    <li><a href="#projects"><i class="material-icons fas fa-tools"> Projects</i></a></li>
+    <li><a href="#services"><i class="material-icons fas fa-pencil-ruler"> Services</i></a></li>
+    <li><a href="#contact"><i class="material-icons fas fa-user"> Contacts</i></a></li>
+  </ul>
+
+  <!-- FAB to scroll to top -->
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-medium blue" id="scrollTop">
+      <i class="large material-icons fas fa-arrow-up"></i>
+    </a>
+  </div>
+
+  <!-- About Me Section -->
+  <div id="about" class="container section scrollspy">
+    <h2>About Me</h2>
+    <p>Hi, I'm Adedolapo Adeboye, an aspiring Mechanical Engineer and a Python & C++ programmer. Welcome to my portfolio!</p>
+  </div>
+
+  <!-- Projects Section -->
+  <div id="projects" class="container section scrollspy">
+    <h2>Projects</h2>
+    <div class="row">
+      <div class="col s12 m6 l4">
+        <div class="card project-card">
+          <div class="card-content">
+            <span class="card-title"><a href="https://github.com/hybridwealth/tomato-py">Tomato-py</a></span>
+            <p>Basic calculator application using Python.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card project-card">
+          <div class="card-content">
+            <span class="card-title"><a href="https://github.com/hybridwealth/javis.git">Javis</a></span>
+            <p>A to-do list manager in Python.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card project-card">
+          <div class="card-content">
+            <span class="card-title"><a href="https://github.com/hybridwealth/botify.git">Botify</a></span>
+            <p>A telegram bot in Python.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card project-card">
+          <div class="card-content">
+            <span class="card-title"><a href="https://github.com/hybridwealth/chimera.git">Chimera</a></span>
+            <p>A telegram bot in JavaScript, a spin-off version of Botify</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card project-card">
+          <div class="card-content">
+            <span class="card-title"><a href="https://github.com/hybridwealth/pyramid">Pyramid</a></span>
+            <p>A to-do list manager in Python.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Add more projects in the same way -->
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <div id="services" class="container section scrollspy">
+    <h2>Services</h2>
+    <div class="row">
+      <div class="col s12 m6 l4">
+        <div class="card project-card">
+          <div class="card-content">
+            <span class="card-title"><i class="fas fa-laptop-code"></i> Web Development</span>
+            <p>I create responsive and functional websites.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card project-card">
+          <div class="card-content">
+            <span class="card-title"><i class="fas fa-tools"></i> Website Maintenance</span>
+            <p>Ensuring your website runs smoothly and efficiently.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card project-card">
+          <div class="card-content">
+            <span class="card-title"><i class="fab fa-android"></i> App Development</span>
+            <p>Developing mobile applications for Android.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card project-card">
+          <div class="card-content">
+            <span class="card-title"><i class="fas fa-wifi"></i> Internet of Things</span>
+            <p>Integrating smart devices and IoT solutions.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card project-card">
+          <div class="card-content">
+            <span class="card-title"><i class="fas fa-user-tie"></i> Consultancy</span>
+            <p>Providing expert advice and solutions.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card project-card">
+          <div class="card-content">
+            <span class="card-title"><i class="fas fa-chalkboard-teacher"></i> Educational Tutoring</span>
+            <p>Offering tutoring services in various subjects.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div id="contact" class="container section scrollspy">
+    <h2>Contact</h2>
+    <div class="row">
+      <div class="col s12">
+        <a href="https://wa.me/message/KL22F4OXM5VTK1" class="btn-floating btn-large waves-effect waves-light green"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://ng.linkedin.com/in/adedolapo-adeboye-59a2bb305" class="btn-floating btn-large waves-effect waves-light blue"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/HybridWealth?t=CrXNRDf2J3RgKcI2L9K54g&s=09" class="btn-floating btn-large waves-effect waves-light blue lighten-2"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/hybridwealth/" class="btn-floating btn-large waves-effect waves-light black"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="col s12">
+        <a href="https://www.mediafire.com/file/cjdh22elz1y2zp9/Adedolapo_Resume.pdf" class="btn btn-large waves-effect waves-light">Download CV</a>
+        <a href="mailto: abrahamadeboye00@gmail.com?subject=Hire%20Me" class="btn btn-large waves-effect waves-light">Hire Me</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Adedolapo Adeboye</h5>
+          <p class="grey-text text-lighten-4">Thanks for visiting my portfolio. Feel free to connect with me on social media!</p>
+          <p><i class="fas fa-map-marker-alt"></i> 1, Awojobi street, Ota, Ogun, 112204, Nigeria.</p>
+          <p><i class="fas fa-envelope"></i> abrahamadeboye00@gmail.com</p>
+          <p><i class="fas fa-phone-alt"></i> +234 901 704 9949</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <p>All rights reserved ©</p> <span id="current-year"></span> hybridwealth.github.io
+      </div>
+    </div>
+  </footer>
+
+  <!-- Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+
+      var scrollElems = document.querySelectorAll('.scrollspy');
+      var scrollInstances = M.ScrollSpy.init(scrollElems, {
+        scrollOffset: 50
+      });
+
+      // Set current year
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+
+      // Scroll to top functionality
+      document.getElementById('scrollTop').addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      // Hide preloader once the page is fully loaded
+      window.addEventListener('load', function() {
+        document.getElementById('preloader').style.display = 'none';
+      });
+    });
+  </script>
+</body>
+</html>
